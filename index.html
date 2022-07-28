@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="style.css">
   <!-- bootstrap link -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+  <!--------------font awesome link start-------------->
+  <script src="https://kit.fontawesome.com/5b6d9a3ce5.js" crossorigin="anonymous"></script>
+  <!--------------font awesome link start-------------->
 </head>
 <body>
   <!-- header start here -->
@@ -94,7 +97,7 @@
   <!-- course section start here -->
   <section class="mt-5">
    <div class="text-center mb-5">
-    <h2 class="pb-1">Discover Our Popular Courses</h2>
+    <h2 class="pb-1 fw-bold">Discover Our Popular Courses</h2>
     <p>It is a long established fact that a reader will be distracted by the readable
       content of a page when looking at its layout.</p>
    </div>
@@ -195,8 +198,46 @@
     </div>
    </div>
 
-  </section>
+  </section> 
   <button class="btn btn-primary d-block mx-auto my-3 p-2">See More Courses</button>
+
+  <!-- explore elearning section start -->
+
+  <section class="my-5 ">
+  <div class="card mb-3 bg-light">
+    <div class="row">
+      <div class="col-lg-6">
+        <img src="images/working.png" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-lg-6 my-auto">
+        <div class="card-body">
+          <h2 class="card-title fs-1 pb-3">Explore The elearning Institut</h2>
+          <p class="card-text fs-5 pb-2">This free online course in e-learning theory and practice will give you an overview of research-based e-learning
+          methodologies for the creation of effective e-learning courses. E-learning content is a great way to share your
+          expertise with a large audience, boosting your revenue and reputation along the way. By the end of this course you will
+          have the skills and confidence required to build high quality online courses.</p>
+          <p class="fs-5">This course explores seven affordances of e-learning ecologies, which open up genuine possibilities for what we call New
+          Learning-transformative, 21st century learning:</p>
+          <div class="row">
+            <div class="col-4">
+              <h1>3.2k+</h1>
+              <p>Online Course</p>
+            </div>
+            <div class="col-4">
+              <h1>600+</h1>
+              <p>Expert Member</p>
+            </div>
+            <div class="col-4">
+              <h1>1k+</h1>
+              <p>Rating & Review</p>
+            </div>
+          </div>
+          <button class="btn bg-primary text-white py-3 px-5 fs-5">Read More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
   
   <!-- Registration  section start here -->
   
@@ -208,16 +249,160 @@
       readable content of a page when looking at its layout.</p>      
       </div>
       <div class="col-lg-3 my-lg-auto">
-        <a class="border py-lg-3 py-3 px-5 text-decoration-none rounded bg-white text-info fw-bold my-lg-auto" href="">Register Now</a>
+        <button class="btn border py-lg-3 py-3 px-5 text-decoration-none rounded bg-white text-info fw-bold my-lg-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button>
+      </div>
+    </div>
+    
+    <!-- Modal -->
+    <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            I will not close if you click outside of me. Don't even try to press escape key.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
       </div>
     </div>
 
   </section>
 
- </main>
- <footer>
+  <!-- frequently asked quwestion  section start here -->
 
- </footer>
+  <section class="my-5 mx-lg-5">
+    <div class="text-center mb-5">
+      <h2 class="pb-2 fw-bold fs-2">Frequently Asked Questions</h2>
+      <p>It is shown by default, until the collapse plugin adds
+      the appropriate classes that we use to style each element. These classes control the overall appearance, as well
+      as the showing and hiding via CSS transitions.</p>
+    </div>
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            What is the difference between flexbox and grid? 
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+          aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+            Grid and flexbox. The basic difference between CSS Grid Layout and CSS Flexbox Layout is that <strong>flexbox was designed for
+            layout in one dimension - either a row or a column.Grid was designed for two-dimensional layout - </strong> rows, and columns at
+            the same time.This means Flexbox can work on either row or columns at a time, but Grids can work on both. Flexbox, gives you more
+            flexibility while working on either element (row or column).
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+            What's the difference between Bootstrap and Tailwind?
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingTwo">
+          <div class="accordion-body">
+           <strong>Bootstrap is the most popular HTML, CSS, and JavaScript framework for building responsive, mobile-first projects on the
+            web. Tailwind CSS, on the other hand, is the most popular utility-first CSS framework for fast UI development.</strong> The main difference between TailwindCSS and Bootstrap is that Tailwind CSS is not a UI kit.Unlike UI kits such as Bootstrap, Bulma, and Foundation, Tailwind CSS doesn't have a default theme or built-in UI components.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseThree">
+            What is CSS Box model? ?
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingThree">
+          <div class="accordion-body">
+            The <strong>CSS Box model is a container that contains multiple properties including borders, margin, padding, and the content
+            itself.</strong> It is used to create the design and layout of web pages. It can be used as a toolkit for customizing the layout
+            of different elements. The web browser renders every element as a rectangular box according to the CSS box model.
+            Box-Model has multiple properties in CSS.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+            What are semantic tags in HTML?
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingThree">
+          <div class="accordion-body">
+           <div class="row">
+            <div class="col-9">
+              <p>Semantics <strong>is the study of meaning in language</strong>. It can be applied to entire texts or to single words.
+              For example, "destination" and "last stop" technically mean the same thing, but students of semantics analyze their subtle shades of meaning.semantics, also called semiotics, semology, or semasiology, the philosophical and scientific study of meaning in natural
+              and artificial languages.</p>
+            </div>
+            <div class="col-3">
+              <img class="img-fluid h-50" src="images/course/semantic tag.jpg" alt="">
+            </div>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+ <!-- online logo section start  -->
+
+  <section class="my-5">
+    <h2 class="mt-5 mb-4 text-center fw-bold fs-2">Trusted by over 800+ companie</h2>
+    <div class="d-flex justify-content-evenly align-items-center mb-5">
+      <div class="">
+        <img class="w-75" src="images/company/company-1.png" alt="">
+      </div>
+      <div class="">
+        <img class="w-75" src="images/company/company-2.png" alt="">
+      </div>
+      <div class="">
+        <img class="w-75"  src="images/company/company-3.png" alt="">
+      </div>
+      <div class="">
+        <img class="w-75" src="images/company/company-4.png" alt="">
+      </div>
+      <div class="">
+        <img class="w-75" src="images/company/company-5.png" alt="">
+      </div>
+      <div class="">
+        <img class="w-75" src="images/company/company-6.png" alt="">
+      </div>
+      
+    </div>
+  </section>
+ </main>
+ 
+<!------------footer start-------------->
+
+<footer class="bg-black text-white text-center py-5">
+  <h4 class="fw-semibold fs-2">Pro Education</h4>
+  <p class="text-white-50">Office 41, Zawaya Buildin, Ghala Muscat,<br> Sultanate of Oman <br>
+  Privacy Ploicy | Terms of use</p>
+  <div class="footer-icon fs-4">
+    <a href=""><i class="me-2 text-white fa-brands fa-facebook"></i></a>
+    <a href=""><i class="me-2 text-white fa-brands fa-youtube"></i></a>
+    <a href=""><i class="me-2 text-white fa-brands fa-github"></i></a>
+    <a href=""><i class="me-2 text-white fa-brands fa-linkedin"></i></a>
+  </div>
+</footer>
+
+<!------------footer end-------------->
   
 
 
