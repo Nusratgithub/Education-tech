@@ -1,9 +1,18 @@
+/* google fonts poppins inter montserrarrt oswald */
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Nunito:wght@400;500;700;900&family=Poppins:wght@500&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
 .banner {
   width: 100%;
   height: 80vh;
   filter: brightness(60%);
 }
-.registration{
+#register{
   height: 30%;
   margin: auto;
   background-color: deepskyblue;
@@ -21,8 +30,8 @@
   .logo{
     display: none;
   }
-  .registration {
-    height: 38%;
+  #register{
+    height: 40%;
     margin:10px;
   }
  
