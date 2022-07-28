@@ -4,7 +4,9 @@
   filter: brightness(60%);
 }
 .registration{
-  height: 29%;
+  height: 30%;
+  margin: auto;
+  background-color: deepskyblue;
 }
 .student img{
   width: 50px;
