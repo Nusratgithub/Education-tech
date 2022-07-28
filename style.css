@@ -4,6 +4,22 @@
   filter: brightness(60%);
 }
 .registration{
-  height: 28%;
+  height: 29%;
+}
+
+@media screen and (max-width: 990px) {
+  .learning p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .logo{
+    display: none;
+  }
+  .registration {
+    height: 38%;
+    margin:10px;
+  }
+ 
 }
 
